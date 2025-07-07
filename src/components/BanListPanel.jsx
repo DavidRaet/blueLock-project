@@ -3,10 +3,9 @@ const BanListPanel = ({banList, onRemoveBan}) => {
   return (
 
     <div className="banList-container">
-      <h1>Banned Attributes</h1>
-      {banList.length > 0 ? (
+      <h1>🚫 Banned Attributes</h1>
+      {banList.length === 0 ? (
         <div className="null">
-          <h2>🚫</h2>
           <p>No banned attributes yet.</p>
           <p>Please click on a character attribute to ban them!
           </p>

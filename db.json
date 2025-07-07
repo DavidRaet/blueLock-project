@@ -1,43 +1,44 @@
+
 {
   "characters": [
     {
       "id": 1,
       "name": "Yoichi Isagi",
-      "position": "Striker",
+      "position": "Forward",
       "team": "Team Z",
       "weapon": "Spatial Awareness",
-      "goals": 15,
-      "ranking": 299,
+      "goals": 8,
+      "ranking": 15,
       "image": "./images/isagi.jpg"
     },
     {
       "id": 2,
       "name": "Meguru Bachira",
-      "position": "Midfielder",
+      "position": "Forward",
       "team": "Team Z",
-      "weapon": "Monster",
-      "goals": 12,
-      "ranking": 274,
-      "image": "./images/bachira.webp"
+      "weapon": "Monster Instinct",
+      "goals": 7,
+      "ranking": 50,
+      "image": "./images/bachira.jpg"
     },
     {
       "id": 3,
       "name": "Hyoma Chigiri",
-      "position": "Striker",
+      "position": "Forward",
       "team": "Team Z",
       "weapon": "Speed",
-      "goals": 8,
-      "ranking": 188,
+      "goals": 6,
+      "ranking": 60,
       "image": "./images/chigiri.jpg"
     },
     {
       "id": 4,
       "name": "Rensuke Kunigami",
-      "position": "Striker",
+      "position": "Forward",
       "team": "Team Z",
       "weapon": "Powerful Shot",
-      "goals": 10,
-      "ranking": 289,
+      "goals": 5,
+      "ranking": 80,
       "image": "./images/kunigami.jpg"
     },
     {
@@ -46,17 +47,17 @@
       "position": "Goalkeeper",
       "team": "Team Z",
       "weapon": "Spatial Flexibility",
-      "goals": 0,
-      "ranking": 287,
+      "goals": 1,
+      "ranking": 70,
       "image": "./images/gagamaru.jpg"
     },
     {
       "id": 6,
       "name": "Seishiro Nagi",
-      "position": "Striker",
+      "position": "Forward",
       "team": "Team V",
       "weapon": "Ball Control",
-      "goals": 22,
+      "goals": 10,
       "ranking": 7,
       "image": "./images/nagi.jpg"
     },
@@ -66,28 +67,28 @@
       "position": "Midfielder",
       "team": "Team V",
       "weapon": "Copy",
-      "goals": 6,
-      "ranking": 10,
+      "goals": 4,
+      "ranking": 90,
       "image": "./images/reo.jpg"
     },
     {
       "id": 8,
       "name": "Rin Itoshi",
-      "position": "Striker",
-      "team": "Team W",
+      "position": "Forward",
+      "team": "Team V",
       "weapon": "Destruction",
-      "goals": 35,
+      "goals": 12,
       "ranking": 1,
       "image": "./images/rin.jpg"
     },
     {
       "id": 9,
       "name": "Shoei Baro",
-      "position": "Striker",
+      "position": "Forward",
       "team": "Team X",
       "weapon": "King's Domination",
-      "goals": 18,
-      "ranking": 25,
+      "goals": 7,
+      "ranking": 30,
       "image": "./images/barou.jpg"
     },
     {
@@ -96,8 +97,8 @@
       "position": "Defender",
       "team": "Team X",
       "weapon": "Stylish Glam",
-      "goals": 3,
-      "ranking": 156,
+      "goals": 2,
+      "ranking": 100,
       "image": "./images/aryu.jpg"
     },
     {
@@ -106,18 +107,18 @@
       "position": "Defender",
       "team": "Team Z",
       "weapon": "Tactical Analysis",
-      "goals": 2,
-      "ranking": 298,
+      "goals": 1,
+      "ranking": 250,
       "image": "./images/kuon.jpg"
     },
     {
       "id": 12,
       "name": "Jingo Raichi",
-      "position": "Striker",
+      "position": "Defender",
       "team": "Team Z",
-      "weapon": "Hot-Blooded Fighting Spirit",
-      "goals": 7,
-      "ranking": 295,
+      "weapon": "Hot‑Blooded Spirit",
+      "goals": 3,
+      "ranking": 180,
       "image": "./images/raichi.jpg"
     },
     {
@@ -126,48 +127,48 @@
       "position": "Midfielder",
       "team": "Team Z",
       "weapon": "Ninja Stealth",
-      "goals": 4,
-      "ranking": 290,
+      "goals": 2,
+      "ranking": 260,
       "image": "./images/naruhaya.jpg"
     },
     {
       "id": 14,
       "name": "Okuhito Iemon",
-      "position": "Midfielder",
+      "position": "Goalkeeper",
       "team": "Team Y",
       "weapon": "Ball Retention",
-      "goals": 5,
-      "ranking": 201,
+      "goals": 3,
+      "ranking": 200,
       "image": "./images/iemon.jpg"
     },
     {
       "id": 15,
       "name": "Ryusei Shidou",
-      "position": "Striker",
+      "position": "Forward",
       "team": "Team W",
       "weapon": "Explosive Kicks",
-      "goals": 28,
-      "ranking": 15,
+      "goals": 11,
+      "ranking": 2,
       "image": "./images/shidou.jpg"
     },
     {
       "id": 16,
       "name": "Ikki Niko",
-      "position": "Midfielder",
+      "position": "Defender",
       "team": "Team V",
       "weapon": "Analytical Eye",
-      "goals": 9,
-      "ranking": 45,
+      "goals": 5,
+      "ranking": 120,
       "image": "./images/niko.jpg"
     },
     {
       "id": 17,
       "name": "Zantetsu Tsurugi",
-      "position": "Striker",
+      "position": "Forward",
       "team": "Team V",
       "weapon": "Acceleration",
-      "goals": 11,
-      "ranking": 80,
+      "goals": 6,
+      "ranking": 110,
       "image": "./images/zantetsu.avif"
     },
     {
@@ -176,28 +177,28 @@
       "position": "Midfielder",
       "team": "Team W",
       "weapon": "Pass Precision",
-      "goals": 3,
-      "ranking": 67,
+      "goals": 2,
+      "ranking": 150,
       "image": "./images/hiori.jpg"
     },
     {
       "id": 19,
       "name": "Karasu Tabito",
-      "position": "Defender",
+      "position": "Midfielder",
       "team": "Team W",
       "weapon": "Tactical Crow",
-      "goals": 2,
-      "ranking": 89,
+      "goals": 1,
+      "ranking": 69,
       "image": "./images/karasu.jpg"
     },
     {
       "id": 20,
       "name": "Eita Otoya",
-      "position": "Striker",
+      "position": "Forward",
       "team": "Team Y",
       "weapon": "Ninja Cut",
-      "goals": 13,
-      "ranking": 112,
+      "goals": 8,
+      "ranking": 33,
       "image": "./images/otoya.jpg"
     }
   ]

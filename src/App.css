@@ -1,0 +1,52 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+
+
+.character-panel {
+  text-align: center;
+  padding: var(--spacing-md);
+}
+
+
+.card-container {
+  padding: var(--spacing-md);
+}
+
+.stats-container {
+  padding-top: var(--spacing-md);
+}
+
+.ban-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2 {
+  padding-top: var(--spacing-md);
+}
+
+.instructions {
+  margin-top: 12px;
+}
+
+
+.character-image {
+  width: 300px;           
+  height: 400px;          
+  object-fit: cover;
+  border-radius: 8px;
+  border: 3px solid var(--accent-blue);  
+}
+
+.discover-btn {
+  margin: var(--spacing-sm);
+}
+

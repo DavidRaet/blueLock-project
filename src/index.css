@@ -1,0 +1,23 @@
+:root {
+  --primary-bg: #0B1426;
+  --accent-blue: #00A8FF;
+  --default-color: #ffffff;
+  --font-primary: 'Roboto', sans-serif;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --viewport-standard: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-primary);
+  background: var(--primary-bg);
+  min-height: var(--viewport-standard);
+  color: var(--default-color);
+}

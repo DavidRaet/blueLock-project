@@ -7,6 +7,7 @@ const CharacterPanel = ({character, banList, error, loading, onDiscover, onBanAt
       <button 
       onClick={onDiscover}
       disabled={loading}
+      className="discover-btn"
       >{loading ? "Loading..." : "Discover new Player"}</button>
 
       {error && (

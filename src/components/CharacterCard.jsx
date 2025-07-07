@@ -6,9 +6,15 @@ const CharacterCard = ({character, banList, onBanAttribute}) => {
 
 
   return (
-  <div className="container">
+  <div className="card-container">
         <div className="image-container">
-          <img src={character.image} alt={character.name}/>
+          <img 
+          className="character-image" 
+          src={character.image} 
+          alt={character.name} 
+          onError={(e) => {
+            e.target.src = './images/barou-barou-kyun.jpg'
+          }}/>
         </div>
         <div className="ban-container">
             <button className={isAttributeBanned('name', character.name) ? "banned" : "not-banned"} onClick={() => onBanAttribute('name', character.name)}>{character.name}</button>
@@ -18,10 +24,10 @@ const CharacterCard = ({character, banList, onBanAttribute}) => {
         </div>
         <div className="stats-container">
           <div className="num-goals">
-            <h3>{character.goals}</h3>
+            <h3>Goals: {character.goals}</h3>
           </div>
           <div className="ranking">
-            <h3>{character.ranking}</h3>
+            <h3>Ranking : #{character.ranking}</h3>
           </div>
         </div>
   </div>
