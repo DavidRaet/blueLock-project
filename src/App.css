@@ -11,7 +11,7 @@
 
 .character-panel {
   text-align: center;
-  padding: var(--spacing-md);
+  padding: var(--spacing-sm);
 }
 
 
@@ -27,6 +27,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+h1 {
+  margin: 0;
 }
 
 h2 {
@@ -46,7 +50,108 @@ h2 {
   border: 3px solid var(--accent-blue);  
 }
 
-.discover-btn {
-  margin: var(--spacing-sm);
+
+
+
+.discover-btn, .not-banned, .banned, .removeBan-btn {
+  position: relative;
+  overflow: hidden;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-size: 200% 100%;
+  color: var(--default-color);
 }
 
+.discover-btn {
+  background: linear-gradient(45deg, var(--accent-blue), #0066cc, var(--accent-blue));
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: var(--spacing-md);
+}
+
+.discover-btn:hover:not(:disabled) {
+  animation: gradientShift 0.8s ease-in-out infinite;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 25px rgba(0, 168, 255, 0.3);
+}
+
+.not-banned {
+  background: linear-gradient(45deg, var(--accent-blue), #0088ff, var(--accent-blue));
+  background-size: 200% 100%;
+  margin: 4px;
+  font-size: 14px;
+}
+
+.not-banned:hover {
+    animation: gradientShift 0.8s ease-in-out infinite;
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0, 168, 255, 0.4);
+}
+
+.banned {
+  background: linear-gradient(45deg, #ff4757, #ff3838, #ff4757);
+  background-size: 200% 100%;
+  margin: 4px;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.banned:hover {
+  animation: gradientShift 0.8s ease-in-out infinite;
+  opacity: 0.9;
+}
+
+.removeBan-btn {
+  background: linear-gradient(45deg, #ff4757, #ff3838, #ff4757);
+  background-size: 200% 100%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.removeBan-btn:hover {
+  animation: gradientShift 0.5s ease-in-out infinite;
+  transform: scale(1.1) rotate(-90deg);
+}
+
+.discover-btn:disabled {
+  cursor: not-allowed;
+  background: linear-gradient(45deg, #34495e, #2c3e50, #34495e);
+  background-size: 200% 100%;
+  animation: loading-shimmer 1.5s ease-in-out infinite;
+  transform: none;
+  box-shadow: none;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@keyframes loading-shimmer {
+    0% {
+      background-position: -200% 0;
+    }
+    100% {
+      background-position: 200% 0;
+    }
+}
+
+.chibi-isagi {
+  padding: var(--spacing-sm);
+}

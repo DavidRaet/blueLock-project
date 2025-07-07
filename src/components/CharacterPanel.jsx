@@ -24,7 +24,7 @@ const CharacterPanel = ({character, banList, error, loading, onDiscover, onBanAt
          />
       ) : (
           <div className="first-display">
-        <img src="./images/isagi-chibi.jpg" alt="cute isagi"/>
+        <img className="chibi-isagi" src="./images/isagi-chibi.jpg" alt="cute isagi"/>
         <p>Click Discover new Player to start!</p>
           </div>
       )}
