@@ -80,7 +80,6 @@ function App() {
       />
       <BanListPanel 
         banList={banList}
-        // on Remove Ban implementation
         onRemoveBan={handleRemoveBan}
       />
     </div>
